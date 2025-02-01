@@ -1,0 +1,26 @@
+.has-lightbox .sl-overlay {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.has-lightbox .sl-wrapper .sl-navigation button,
+.has-lightbox .sl-wrapper button,
+.has-lightbox div.sl-counter {
+  color: #fff;
+}
+
+.gallery {
+  max-width: 1128px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.gallery-item img {
+  width: 100%;
+}
